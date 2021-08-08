@@ -3,6 +3,7 @@ import "katex/dist/katex.min.css"
 import "../assets/css/post.css"
 import Layout from "../components/layout";
 import SEO from "../components/seo"
+import "katex/dist/katex.min.css"
 
 export default function Post({ pageContext }) {
     const { title, updatedAt, image } = pageContext.post;
@@ -13,7 +14,7 @@ export default function Post({ pageContext }) {
         <Layout>
             <SEO title={title} description={description} />
             <div className="post-header">
-                <h1>{title}</h1>
+                <h3>{title}</h3>
                 <p className="post-date">{updatedAt}</p>
                 <img src={image.file.url} className="post-image" alt="post-cover"></img>
                 <div dangerouslySetInnerHTML={{ __html: body }} className="post-body" />
