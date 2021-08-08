@@ -14,7 +14,7 @@ export default function PostLink({ post }) {
                     <img src={image.file.url} className="post-link-image" alt="post-cover"></img>
                 </div>
                 <div className="post-link-text">
-                    <h2>{title}</h2>
+                    <h3>{title}</h3>
                     <p className="post-link-body">{description}</p>
                     <p className="post-link-date">{updatedAt}</p>
                 </div>
