@@ -1,5 +1,4 @@
 import React from "react"
-import "katex/dist/katex.min.css"
 import "../assets/css/post.css"
 import Layout from "../components/layout";
 import SEO from "../components/seo"
