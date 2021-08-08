@@ -43,28 +43,28 @@ class HomeIndex extends React.Component {
                                 <h3>Prime</h3>
                                 <p>素数大富豪に関するページ</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/prime" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic03})`}}>
                             <header className="major">
                                 <h3>Mathmatics</h3>
                                 <p>自分の勉強してきた数学やグラフ理論の紹介</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/math" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic04})`}}>
                             <header className="major">
                                 <h3>Program</h3>
                                 <p>プログラムの制作物の紹介</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/program" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic05})`}}>
                             <header className="major">
                                 <h3>Hobby</h3>
                                 <p>趣味に関するページ</p>
                             </header>
-                            <Link to="/landing" className="link primary"></Link>
+                            <Link to="/hoby" className="link primary"></Link>
                         </article>
                         <article style={{backgroundImage: `url(${pic06})`}}>
                             <header className="major">
