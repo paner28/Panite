@@ -17,7 +17,7 @@ class HomeIndex extends React.Component {
 
         return (
             <Layout>
-                <SEO title="Dev Blog" description="Gatsbyを使って作ったブログです" />
+                <SEO title="Panite" description="Gatsbyを使って作ったブログです" />
                 <Helmet
                     title="Panite"
                     meta={[
