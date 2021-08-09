@@ -20,7 +20,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
+        icon: 'src/assets/images/website-icon.png', 
       },
     },
     'gatsby-plugin-sass',
@@ -28,9 +28,17 @@ module.exports = {
     {
       resolve: `gatsby-transformer-remark`,
       options: {
+        commonmark: true,
+        footnotes: true,
+        pedantic: true,
+        gfm: true,
         plugins: [
-          // `gatsby-remark-katex`,
-          `gatsby-remark-mathjax`,
+          {
+            resolve: `gatsby-remark-katex`,
+            options: {
+              strict: `ignore`
+            }
+          }
         ],
       },
     },
@@ -40,16 +48,6 @@ module.exports = {
         spaceId: "slgjb3gqv6x3",
         accessToken: "ZKbPmE_dxfMjPhBjJEaojA4le4qNb8K9qU7n1jhTHCc"
       }
-    },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        commonmark: true,
-        footnotes: true,
-        pedantic: true,
-        gfm: true,
-        plugins: [],
-      },
     },
   ],
 }
