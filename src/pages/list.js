@@ -3,8 +3,9 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import PostLink from "../components/post-link"
 import { graphql } from "gatsby"
+import { Link } from 'gatsby'
 
-export default function Generic({data}){
+export default function Generic({data, pageContext}){
     return(
         <Layout>
             <Helmet>
@@ -32,6 +33,12 @@ export default function Generic({data}){
                     </div>
                 </section>
             </div>
+
+            <div style={{textAlign: "center"}}>
+              <Link to={pageContext.previousPagePath} className="button" style={{margin: "20px"}}>Previous</Link>
+              <Link to={pageContext.nextPagePath} className="button" style={{margin: "20px"}}>Next</Link>
+            </div>
+
             <div style={{textAlign: "center",marginTop:"40px"}}>
                 <a href="\#" className="button" style={{width: "200px"}}>Home</a>
             </div>

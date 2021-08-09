@@ -29,7 +29,8 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
-          `gatsby-remark-katex`
+          // `gatsby-remark-katex`,
+          `gatsby-remark-mathjax`,
         ],
       },
     },
