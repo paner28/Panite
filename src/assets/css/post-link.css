@@ -10,7 +10,7 @@
     -webkit-box-orient: vertical;
     display: -webkit-box;
     overflow: hidden;
-    color: #c2c2c2;
+    color: #ffffff;
   }
   
   .post-link-text {
@@ -18,7 +18,7 @@
   }
   
   .post-link-date {
-    color: #acacac;
+    color: #ffffff;
   }
   
   .post-link-image {
@@ -56,3 +56,9 @@
     color: inherit;
     text-decoration: none;
   }
+
+.post-link{
+  padding: 20px;
+  background-color: rgb(123, 178, 192);
+  border-radius: 10px;
+}

@@ -16,7 +16,7 @@ export default function PostLink({ post }) {
                 <div className="post-link-text">
                     <h3>{title}</h3>
                     <p className="post-link-body">{description}</p>
-                    <p className="post-link-date">{updatedAt}</p>
+                    <p className="post-link-date">最終更新日 : {updatedAt}</p>
                 </div>
             </div>
         </Link>

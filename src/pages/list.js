@@ -8,8 +8,8 @@ export default function Generic({data}){
     return(
         <Layout>
             <Helmet>
-                <title>Generic - Forty by HTML5 UP</title>
-                <meta name="description" content="Generic Page" />
+                <title>Q-List - Panite</title>
+                <meta name="description" content="Panerが気に入った問題や数学クイズのリストです" />
             </Helmet>
 
             <section id="banner" className="style1">
@@ -31,6 +31,9 @@ export default function Generic({data}){
                         )}
                     </div>
                 </section>
+            </div>
+            <div style={{textAlign: "center",marginTop:"40px"}}>
+                <a href="\#" className="button" style={{width: "200px"}}>Home</a>
             </div>
         </Layout>
     )

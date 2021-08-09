@@ -9,6 +9,7 @@ module.exports = {
     description: "Panerが気ままに数学の問題やクイズを投稿するサイトです"
   },
   plugins: [
+    `gatsby-plugin-emotion`,
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,

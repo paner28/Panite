@@ -81,7 +81,7 @@ class HomeIndex extends React.Component {
                             </header>
                             <p>数学科の学生である私が気に入ったクイズや数学パズルなどを共有していくサイトです。他にも、自分の興味のある分野や趣味についての内容も紹介していきます。</p>
                             <ul className="actions">
-                                <li><Link to="/landing" className="button next">Get Started</Link></li>
+                                <li><Link to="/#one" className="button next">Go Section</Link></li>
                             </ul>
                         </div>
                     </section>
